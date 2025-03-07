@@ -1,0 +1,40 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace UrlShortener.Services
+{
+    public class ShortenUrlService
+    {
+        public const int NumberOfCharsInShortLink = 4;
+
+        public const string Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        public ShortenUrlService(ApplicationDbContext dbContext)
+        {
+            _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
+        }
+
+        private ApplicationDbContext _dbContext = null!;
+
+        private Random _random = new Random();
+
+        public async Task<string> GenerateUniqueCode()
+        {
+            var CharArr = new char[NumberOfCharsInShortLink];
+
+            while (true)
+            {
+                for (int i = 0; i < CharArr.Length; i++)
+                {
+                    CharArr[i] = Alphabet[_random.Next(NumberOfCharsInShortLink - 1)];
+                }
+
+                var code = new string(CharArr);
+
+                if (!await _dbContext.ShortenedUrl.AnyAsync(s => s.Code == code))
+                {
+                    return code;
+                }
+            }
+        }
+    }
+}
