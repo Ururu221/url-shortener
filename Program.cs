@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.OpenApi.Models;
+using System;
 using System.Data.Common;
 using UrlShortener.Entities;
 using UrlShortener.Extensions;
@@ -19,8 +20,8 @@ namespace UrlShortener
 
             var connectionString = builder.Configuration.GetConnectionString("DbConnection");
 
-            builder.Services.AddDbContext<ApplicationDbContext>(options => 
-                options.UseSqlServer(connectionString));
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseNpgsql(connectionString));
 
             builder.Services.AddSwaggerGen(c =>
             {

@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\",
+  "WorkspaceRootPath": "G:\\c#\\asp.net core\\UrlShortener\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\services\\shortenurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:services\\shortenurlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\entities\\shortenedurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:entities\\shortenedurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|c:\\users\\06680\\desktop\\c#\\asp.net core\\url-shortener\\webapplication1\\models\\shortenurlrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|WebApplication1.csproj|solutionrelative:models\\shortenurlrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|UrlShortener.csproj|g:\\c#\\asp.net core\\urlshortener\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD7748F1-E6AD-4213-9BE8-7793A10E08D9}|UrlShortener.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\ApplicationDbContextFactory.cs",
-              "RelativeDocumentMoniker": "ApplicationDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\ApplicationDbContextFactory.cs",
-              "RelativeToolTip": "ApplicationDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T14:19:16.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\appsettings.json",
+              "DocumentMoniker": "G:\\c#\\asp.net core\\UrlShortener\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\appsettings.json",
+              "ToolTip": "G:\\c#\\asp.net core\\UrlShortener\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-07T13:26:58.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T13:07:40.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShortenUrlService.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Services\\ShortenUrlService.cs",
-              "RelativeDocumentMoniker": "Services\\ShortenUrlService.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Services\\ShortenUrlService.cs",
-              "RelativeToolTip": "Services\\ShortenUrlService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:58:58.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShortenedUrl.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Entities\\ShortenedUrl.cs",
-              "RelativeDocumentMoniker": "Entities\\ShortenedUrl.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Entities\\ShortenedUrl.cs",
-              "RelativeToolTip": "Entities\\ShortenedUrl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:54:54.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShortenUrlRequest.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Models\\ShortenUrlRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ShortenUrlRequest.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Models\\ShortenUrlRequest.cs",
-              "RelativeToolTip": "Models\\ShortenUrlRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T12:48:06.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAqwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T11:14:51.986Z",
+              "WhenOpened": "2025-03-28T11:04:54.444Z",
               "EditorCaption": ""
             }
           ]

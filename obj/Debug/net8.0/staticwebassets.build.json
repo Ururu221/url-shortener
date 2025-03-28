@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "RVxEmDWrSSW1/kK3uwZgVxiX1nuHSHQykKRNXW5MQWo=",
+  "Hash": "t6CafnMe5rcrqwHv7kyFWxGmj1C1l9c4zPJR62Mtv54=",
   "Source": "UrlShortener",
   "BasePath": "_content/UrlShortener",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

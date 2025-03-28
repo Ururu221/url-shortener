@@ -15,11 +15,11 @@ namespace UrlShortener.Migrations
                 name: "ShortenedUrl",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    LongUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ShortUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Code = table.Column<string>(type: "nvarchar(4)", maxLength: 4, nullable: false),
-                    CreatedOn = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    LongUrl = table.Column<string>(type: "text", nullable: false),
+                    ShortUrl = table.Column<string>(type: "text", nullable: false),
+                    Code = table.Column<string>(type: "character varying(4)", maxLength: 4, nullable: false),
+                    CreatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
                 },
                 constraints: table =>
                 {

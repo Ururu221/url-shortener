@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x/GU+u1EID8=",
+  "dgSpecHash": "SBITqrSk8AE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\06680\\Desktop\\c#\\asp.net core\\url-shortener\\WebApplication1\\UrlShortener.csproj",
+  "projectFilePath": "G:\\c#\\asp.net core\\UrlShortener\\UrlShortener.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\06680\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -51,6 +51,8 @@
     "C:\\Users\\06680\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
+    "C:\\Users\\06680\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
+    "C:\\Users\\06680\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\swashbuckle.aspnetcore\\7.3.1\\swashbuckle.aspnetcore.7.3.1.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.1\\swashbuckle.aspnetcore.swagger.7.3.1.nupkg.sha512",
     "C:\\Users\\06680\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.1\\swashbuckle.aspnetcore.swaggergen.7.3.1.nupkg.sha512",

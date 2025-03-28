@@ -1,8 +1,11 @@
-﻿namespace UrlShortener.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace UrlShortener.Entities
 {
     public class ShortenedUrl
     {
-        public Guid Id { get; set; } 
+        [Column(TypeName = "uuid")]
+        public Guid Id { get; set; }
 
         public string LongUrl { get; set; } = string.Empty;
 

@@ -15,7 +15,7 @@ namespace UrlShortener
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-            optionsBuilder.UseSqlServer(config.GetConnectionString("DbConnection"));
+            optionsBuilder.UseNpgsql(config.GetConnectionString("DbConnection"));
 
             return new ApplicationDbContext(optionsBuilder.Options);
         }
