@@ -7,6 +7,7 @@ using UrlShortener.Entities;
 using UrlShortener.Extensions;
 using UrlShortener.Models;
 using UrlShortener.Services;
+using UrlShortener.Services.Interfaces;
 
 namespace UrlShortener
 {
@@ -16,7 +17,7 @@ namespace UrlShortener
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddScoped<ShortenUrlService>();
+            builder.Services.AddScoped<ICodeGenerator, ShortenUrlService>();
 
             var connectionString = builder.Configuration.GetConnectionString("DbConnection");
 
@@ -46,8 +47,8 @@ namespace UrlShortener
             app.MapPost("/url/shorten", async (
                 ShortenUrlRequest req,
                 ApplicationDbContext dbContext,
-                ShortenUrlService shortenUrlService,
-                HttpContext httpContext
+                HttpContext httpContext,
+                ICodeGenerator codeGenerator
                 ) =>
             {
                 if (!Uri.TryCreate(req.Url, UriKind.Absolute, out _))
@@ -55,7 +56,7 @@ namespace UrlShortener
                     return Results.BadRequest($"invalid URI: {req.Url}");
                 }
 
-                var code = await shortenUrlService.GenerateUniqueCode();
+                var code = await codeGenerator.GenerateUniqueCodeAsync();
 
                 var shortenedUrl = new ShortenedUrl
                 {
