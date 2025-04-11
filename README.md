@@ -1,4 +1,3 @@
-```markdown
 # 🔗 UrlShortener — Minimal URL Shortening API using ASP.NET Core + Docker + PostgreSQL
 
 **UrlShortener** is a lightweight and scalable REST API for creating short links from long URLs. It's built with **ASP.NET Core (.NET 8)** following clean architecture principles like **SOLID**, **Dependency Injection**, and uses **Entity Framework Core** with a **PostgreSQL** database. The project is fully containerized using **Docker Compose**, making it easy to run anywhere.
