@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:alpine
+    container_name: urlshortener.db
+    environment:
+      - POSTGRES_DB=url_shortener
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=2413050505
+    ports:
+      - "1234:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres", "-d", "url_shortener"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  api:
+    container_name: urlshortener.api
+    build:
+      context: .
+      dockerfile: Solution/Dockerfile
+    image: ${DOCKER_REGISTRY-}urlshortener
+    environment:
+      - ConnectionStrings__DbConnection=Host=db;Port=5432;Database=url_shortener;Username=postgres;Password=2413050505
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "5000:5000"

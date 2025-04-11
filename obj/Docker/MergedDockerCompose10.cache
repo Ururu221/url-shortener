@@ -1,0 +1,65 @@
+name: dockercompose1099501462937811356
+services:
+  api:
+    build:
+      context: G:\.net\asp.net core\UrlShortener
+      dockerfile: Solution/Dockerfile
+    container_name: urlshortener.api
+    depends_on:
+      db:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5000
+      ConnectionStrings__DbConnection: Host=db;Port=5432;Database=url_shortener;Username=postgres;Password=2413050505
+    image: urlshortener
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5000
+        published: "5000"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\06680\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\06680\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  db:
+    container_name: urlshortener.db
+    environment:
+      POSTGRES_DB: url_shortener
+      POSTGRES_PASSWORD: "2413050505"
+      POSTGRES_USER: postgres
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - postgres
+        - -d
+        - url_shortener
+      timeout: 5s
+      interval: 5s
+      retries: 5
+      start_period: 5s
+    image: postgres:alpine
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "1234"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose1099501462937811356_default
