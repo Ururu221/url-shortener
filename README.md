@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🔗 UrlShortener — Minimal URL Shortening API using ASP.NET Core + Docker + PostgreSQL
 
